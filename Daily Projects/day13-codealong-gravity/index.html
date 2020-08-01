@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>A "fake" Gravitational Physics Simulation</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    
+    
+    <!-- import the p5.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <!-- import project files-->
+    <script src="math_stuff.js" defer></script>
+    <script src="world_model.js" defer></script>
+    <script src="visualization.js" defer></script>
+
+  </head>
+  
+  <body>
+    <h1>A Fake Physics Simulation</h1>
+    <div id="id1"></div>
+    A simulation of "planetoids" interacting under the gravitational laws of a "fake" 2D physics.
+
+    <h1>Actions</h1>
+    
+    <button onclick="Stop()">Pause</button>
+    <button onclick="Once()">Step Once</button>
+    <button onclick="Start()">Resume</button>
+    
+    <br><br>
+    <a href="tests.html">Run Tests</a>
+    
+    <div id="id2"></div>
+  </body>
+</html>

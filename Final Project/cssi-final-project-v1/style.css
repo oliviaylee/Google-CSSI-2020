@@ -1,0 +1,70 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  height: 1000px;
+  width: 1000px;
+}
+
+h1 {
+  font-style: bold;
+  color: #6188c7;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  color: #af6ccc;
+}
+p {
+  text-align: center;
+}
+
+canvas {
+  border: thin solid red;
+}
+
+.btn {
+  border: none;
+  background-color: #d7e0e0;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+/* On mouse-over */
+.btn:hover {
+  background: #b6bfbf;
+}
+
+.play {
+  color: green;
+}
+.instructions {
+  color: dodgerblue;
+}
+.home {
+  color: orange;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border: 3px solid #6188c7;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
